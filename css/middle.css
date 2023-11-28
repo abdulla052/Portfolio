@@ -1,0 +1,51 @@
+main {
+    margin: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.my-img-container {
+    width: 98%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.my-image {
+    height: 120px;
+    width: 120px;
+    
+    background-position: center center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 51%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.main-heading-container h1 {
+    /* width: 100%; */
+    text-align: center;
+    font-size: 55px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.latest-project-btn {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: var(--dark-grey);
+    padding: 18px 45px;
+    border: 1px solid #242424;
+    margin-top: 3rem;
+}

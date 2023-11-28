@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Farro', sans-serif;
+    background-color: #161616;
+    background-image: url(https://kawsar.design/wp-content/uploads/2023/02/BG-Tx-1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Outfit", Sans-serif;
+    /* text-align: center; */
+}
+
+:root {
+    --text-color: #9A9A9A;
+    --dark-grey: #1A1A1A;
+    --secondary-color: #54595F;
+    --white: #DCDCDC;
+}
+
+::selection {
+    background-color: #2a2a2a;
+}
+
+div,
+p,
+span,
+a {
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    color: var(--text-color);
+}
+
+.top-container,
+section {
+    width: 75%;
+}
