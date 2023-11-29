@@ -15,6 +15,7 @@ body {
     --dark-grey: #1A1A1A;
     --secondary-color: #54595F;
     --white: #DCDCDC;
+    --line-color: #242424;
 }
 
 ::selection {
@@ -36,6 +37,8 @@ h2 {
 }
 
 .top-container,
-section {
+section,
+.h-line,
+.bottom-container {
     width: 75%;
 }
