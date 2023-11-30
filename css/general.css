@@ -42,3 +42,22 @@ section,
 .bottom-container {
     width: 75%;
 }
+
+@media (max-width: 750px) {
+
+    .top-container,
+    section,
+    .h-line,
+    .bottom-container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 465px) {
+    .top-container,
+    section,
+    .h-line,
+    .bottom-container {
+        width: 95%;
+    }
+}
